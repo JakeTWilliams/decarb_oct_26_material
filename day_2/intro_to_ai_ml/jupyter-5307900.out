@@ -1,0 +1,108 @@
+====================================================================
+ JupyterLab is starting on mel0147, port 35207.
+
+ 1. On YOUR LAPTOP, open a new terminal and run (leave it open):
+
+      ssh -p 8822 -N -L 35207:mel0147:35207 u104240@login.lxp.lu
+
+ 2. In your browser, open the URL below that starts with
+    http://127.0.0.1:35207/lab?token=...
+
+ 3. When you are done: File > Shut Down in JupyterLab, or
+      scancel 5307900
+====================================================================
+[I 2026-10-06 15:20:48.797 ServerApp] jupyterlab | extension was successfully linked.
+[I 2026-10-06 15:20:49.072 LabApp] JupyterLab extension loaded from /apps/USE/easybuild/release/2025.1/software/JupyterLab/4.4.4-GCCcore-14.2.0/lib/python3.13/site-packages/jupyterlab
+[I 2026-10-06 15:20:49.072 LabApp] JupyterLab application directory is /mnt/tier2/apps/USE/easybuild/release/2025.1/software/JupyterLab/4.4.4-GCCcore-14.2.0/share/jupyter/lab
+[I 2026-10-06 15:20:49.073 LabApp] Extension Manager is 'pypi'.
+[I 2026-10-06 15:20:49.446 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2026-10-06 15:20:49.447 ServerApp] Serving notebooks from local directory: /mnt/tier2/users/u104240/apps/decarb-ai/oct_26/notebooks/intro_to_ai_ml
+[I 2026-10-06 15:20:49.447 ServerApp] Jupyter Server 2.16.0 is running at:
+[I 2026-10-06 15:20:49.447 ServerApp] http://mel0147:35207/lab?token=282c298b9e88d69d359b9ebb68870fe9ab957cf49661b5dd
+[I 2026-10-06 15:20:49.447 ServerApp]     http://127.0.0.1:35207/lab?token=282c298b9e88d69d359b9ebb68870fe9ab957cf49661b5dd
+[I 2026-10-06 15:20:49.447 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2026-10-06 15:20:49.485 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///mnt/tier2/users/u104240/.local/share/jupyter/runtime/jpserver-21885-open.html
+    Or copy and paste one of these URLs:
+        http://mel0147:35207/lab?token=282c298b9e88d69d359b9ebb68870fe9ab957cf49661b5dd
+        http://127.0.0.1:35207/lab?token=282c298b9e88d69d359b9ebb68870fe9ab957cf49661b5dd
+[I 2026-10-06 15:35:40.639 LabApp] 302 GET /lab?token=[secret] (@10.3.11.102) 2.39ms
+[W 2026-10-06 15:37:19.457 ServerApp] 404 GET /lsp/status?1791293839378 (b58926466d36443a97080ccf82798d53@10.3.11.102) 29.84ms referer=http://127.0.0.1:35207/lab
+[W 2026-10-06 15:37:19.512 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-10-06 15:38:20.322 ServerApp] Writing notebook-signing key to /mnt/tier2/users/u104240/.local/share/jupyter/notebook_secret
+[W 2026-10-06 15:38:20.325 ServerApp] Notebook 01_data_and_learning.ipynb is not trusted
+[I 2026-10-06 15:38:21.045 ServerApp] Kernel started: bf5485f3-bc6b-4bad-a08c-ae5481e25c20
+[I 2026-10-06 15:38:32.493 ServerApp] Connecting to kernel bf5485f3-bc6b-4bad-a08c-ae5481e25c20.
+[W 2026-10-06 15:38:32.494 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2026-10-06 15:38:32.593 ServerApp] Connecting to kernel bf5485f3-bc6b-4bad-a08c-ae5481e25c20.
+[I 2026-10-06 15:38:32.696 ServerApp] Connecting to kernel bf5485f3-bc6b-4bad-a08c-ae5481e25c20.
+[I 2026-10-06 15:40:20.468 ServerApp] Saving file at /01_data_and_learning.ipynb
+[W 2026-10-06 15:45:54.489 ServerApp] Notebook 02_scikit_learn.ipynb is not trusted
+[I 2026-10-06 15:45:55.056 ServerApp] Kernel started: efc3154e-0728-4b3d-aef3-77ddc8076919
+[W 2026-10-06 15:46:00.529 ServerApp] Notebook 03_neural_networks.ipynb is not trusted
+[I 2026-10-06 15:46:00.774 ServerApp] Kernel started: 0b56868d-c2bc-4d63-82e4-a520a1d961fa
+[I 2026-10-06 15:46:06.893 ServerApp] Connecting to kernel efc3154e-0728-4b3d-aef3-77ddc8076919.
+[I 2026-10-06 15:46:07.001 ServerApp] Connecting to kernel 0b56868d-c2bc-4d63-82e4-a520a1d961fa.
+[I 2026-10-06 15:46:15.096 ServerApp] Starting buffering for 0b56868d-c2bc-4d63-82e4-a520a1d961fa:356d5c90-1a65-4340-a792-a7734ddef479
+[I 2026-10-06 15:46:16.434 ServerApp] Starting buffering for bf5485f3-bc6b-4bad-a08c-ae5481e25c20:787a7a91-4073-4b83-8729-44bd6f1bcbe3
+[I 2026-10-06 15:46:18.797 ServerApp] Starting buffering for efc3154e-0728-4b3d-aef3-77ddc8076919:65dcf63e-ba47-4601-b520-732af6cf184c
+[I 2026-10-06 15:46:21.226 ServerApp] Connecting to kernel bf5485f3-bc6b-4bad-a08c-ae5481e25c20.
+[I 2026-10-06 15:48:21.007 ServerApp] Saving file at /01_data_and_learning.ipynb
+[W 2026-10-06 15:49:48.342 ServerApp] Notebook 02_scikit_learn.ipynb is not trusted
+[I 2026-10-06 15:49:48.602 ServerApp] Connecting to kernel efc3154e-0728-4b3d-aef3-77ddc8076919.
+[I 2026-10-06 15:50:21.354 ServerApp] Saving file at /01_data_and_learning.ipynb
+[I 2026-10-06 15:51:48.505 ServerApp] Saving file at /02_scikit_learn.ipynb
+[W 2026-10-06 15:52:35.543 ServerApp] Notebook 03_neural_networks.ipynb is not trusted
+[I 2026-10-06 15:52:35.748 ServerApp] Connecting to kernel 0b56868d-c2bc-4d63-82e4-a520a1d961fa.
+[I 2026-10-06 15:53:48.899 ServerApp] Saving file at /02_scikit_learn.ipynb
+[I 2026-10-06 15:53:50.957 ServerApp] Starting buffering for 0b56868d-c2bc-4d63-82e4-a520a1d961fa:bcdc51c7-f1eb-4bae-9978-a1b74886d8df
+[I 2026-10-06 15:53:52.109 ServerApp] Starting buffering for efc3154e-0728-4b3d-aef3-77ddc8076919:9afcc8d5-dd84-453f-b86d-8ebb6fc80648
+[I 2026-10-06 15:53:55.070 ServerApp] Starting buffering for bf5485f3-bc6b-4bad-a08c-ae5481e25c20:a7821192-7bcf-4b6d-b835-963449b131a8
+[W 2026-10-06 15:54:16.335 ServerApp] 404 GET /lsp/status?1791294856256 (b58926466d36443a97080ccf82798d53@10.3.11.102) 3.72ms referer=http://127.0.0.1:35207/lab
+[W 2026-10-06 15:54:16.368 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-10-06 15:54:16.419 ServerApp] Connecting to kernel bf5485f3-bc6b-4bad-a08c-ae5481e25c20.
+[I 2026-10-06 15:54:16.527 ServerApp] Connecting to kernel efc3154e-0728-4b3d-aef3-77ddc8076919.
+[I 2026-10-06 15:54:16.581 ServerApp] Starting buffering for bf5485f3-bc6b-4bad-a08c-ae5481e25c20:9eb05f98-6767-4e18-bec9-9077fcd1f057
+[I 2026-10-06 15:54:16.620 ServerApp] Starting buffering for efc3154e-0728-4b3d-aef3-77ddc8076919:f56275b3-f545-41ba-873d-d77773ef8c49
+[I 2026-10-06 15:54:16.621 ServerApp] Connecting to kernel 0b56868d-c2bc-4d63-82e4-a520a1d961fa.
+[I 2026-10-06 15:54:16.736 ServerApp] Starting buffering for 0b56868d-c2bc-4d63-82e4-a520a1d961fa:64364541-647e-4e53-aa7b-41fa122e0d66
+[I 2026-10-06 15:54:23.326 ServerApp] Connecting to kernel bf5485f3-bc6b-4bad-a08c-ae5481e25c20.
+[I 2026-10-06 15:55:15.669 ServerApp] Kernel restarted: bf5485f3-bc6b-4bad-a08c-ae5481e25c20
+[I 2026-10-06 15:55:15.712 ServerApp] Starting buffering for bf5485f3-bc6b-4bad-a08c-ae5481e25c20:4b63da57-f22a-49ee-9a70-a86d3989d34d
+[I 2026-10-06 15:55:15.773 ServerApp] Connecting to kernel bf5485f3-bc6b-4bad-a08c-ae5481e25c20.
+[I 2026-10-06 15:55:15.773 ServerApp] Restoring connection for bf5485f3-bc6b-4bad-a08c-ae5481e25c20:4b63da57-f22a-49ee-9a70-a86d3989d34d
+[W 2026-10-06 15:55:20.282 ServerApp] Nudge: attempt 10 on kernel bf5485f3-bc6b-4bad-a08c-ae5481e25c20
+[W 2026-10-06 15:55:25.290 ServerApp] Nudge: attempt 20 on kernel bf5485f3-bc6b-4bad-a08c-ae5481e25c20
+[I 2026-10-06 16:01:46.355 LabApp] 302 GET /lab/tree/01_data_and_learning.ipynb (@10.3.11.102) 0.31ms
+[I 2026-10-06 16:01:53.013 ServerApp] Starting buffering for bf5485f3-bc6b-4bad-a08c-ae5481e25c20:4b63da57-f22a-49ee-9a70-a86d3989d34d
+[W 2026-10-06 16:02:07.165 ServerApp] 404 GET /lsp/status?1791295327088 (528beb079e44479fa5f9edf099dc106c@10.3.11.102) 1.98ms referer=http://127.0.0.1:35207/lab
+[W 2026-10-06 16:02:07.203 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-10-06 16:02:07.283 ServerApp] Connecting to kernel bf5485f3-bc6b-4bad-a08c-ae5481e25c20.
+[I 2026-10-06 16:02:07.373 ServerApp] Connecting to kernel efc3154e-0728-4b3d-aef3-77ddc8076919.
+[I 2026-10-06 16:02:07.396 ServerApp] Starting buffering for bf5485f3-bc6b-4bad-a08c-ae5481e25c20:cd2a8e21-d4b0-471b-921b-aaf0c67ebd93
+[I 2026-10-06 16:02:07.451 ServerApp] Connecting to kernel 0b56868d-c2bc-4d63-82e4-a520a1d961fa.
+[I 2026-10-06 16:02:07.506 ServerApp] Starting buffering for efc3154e-0728-4b3d-aef3-77ddc8076919:26bd87c4-9f62-4aa8-bbd0-5b1df711ac5b
+[I 2026-10-06 16:02:07.783 ServerApp] Starting buffering for 0b56868d-c2bc-4d63-82e4-a520a1d961fa:36e2ae32-924e-44c9-b5d0-7ac256251ec0
+[I 2026-10-06 16:02:08.471 ServerApp] Connecting to kernel bf5485f3-bc6b-4bad-a08c-ae5481e25c20.
+[I 2026-10-06 16:02:48.724 ServerApp] Saving file at /01_data_and_learning.ipynb
+[I 2026-10-06 16:02:53.206 ServerApp] Connecting to kernel efc3154e-0728-4b3d-aef3-77ddc8076919.
+[I 2026-10-06 16:02:56.472 ServerApp] Saving file at /02_scikit_learn.ipynb
+[W 2026-10-06 16:02:57.831 ServerApp] Notebook 03_neural_networks.ipynb is not trusted
+[I 2026-10-06 16:02:58.025 ServerApp] Connecting to kernel 0b56868d-c2bc-4d63-82e4-a520a1d961fa.
+[I 2026-10-06 16:03:06.291 ServerApp] Saving file at /03_neural_networks.ipynb
+[I 2026-10-06 16:03:09.176 ServerApp] Starting buffering for 0b56868d-c2bc-4d63-82e4-a520a1d961fa:e9543f4c-c1b7-4c4c-937e-db1f1eaca013
+[I 2026-10-06 16:03:09.929 ServerApp] Starting buffering for efc3154e-0728-4b3d-aef3-77ddc8076919:45c4366d-1922-4f37-9271-e0a29afaf6ee
+[I 2026-10-06 16:03:10.671 ServerApp] Starting buffering for bf5485f3-bc6b-4bad-a08c-ae5481e25c20:af412cc9-12ff-4a73-b2a0-d0339344f6ff
+[W 2026-10-06 16:03:32.671 ServerApp] 404 GET /lsp/status?1791295412592 (b58926466d36443a97080ccf82798d53@10.3.11.102) 2.08ms referer=http://127.0.0.1:35207/lab
+[W 2026-10-06 16:03:32.710 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-10-06 16:03:32.777 ServerApp] Connecting to kernel bf5485f3-bc6b-4bad-a08c-ae5481e25c20.
+[I 2026-10-06 16:03:32.910 ServerApp] Connecting to kernel efc3154e-0728-4b3d-aef3-77ddc8076919.
+[I 2026-10-06 16:03:32.980 ServerApp] Starting buffering for bf5485f3-bc6b-4bad-a08c-ae5481e25c20:6b47154e-4520-4195-8e36-7f876b593073
+[I 2026-10-06 16:03:33.021 ServerApp] Starting buffering for efc3154e-0728-4b3d-aef3-77ddc8076919:25e145f3-2ade-4429-a093-36193432eb8c
+[I 2026-10-06 16:03:33.024 ServerApp] Connecting to kernel 0b56868d-c2bc-4d63-82e4-a520a1d961fa.
+[I 2026-10-06 16:03:33.136 ServerApp] Starting buffering for 0b56868d-c2bc-4d63-82e4-a520a1d961fa:4353feab-5d1d-45ae-aa0e-d2251f7a5315
+[I 2026-10-06 16:03:35.178 ServerApp] Connecting to kernel bf5485f3-bc6b-4bad-a08c-ae5481e25c20.
+[I 2026-10-06 16:03:42.753 ServerApp] Starting buffering for bf5485f3-bc6b-4bad-a08c-ae5481e25c20:fc6290a4-bf75-4875-a226-767ac8baa08c
