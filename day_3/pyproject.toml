@@ -1,0 +1,25 @@
+[project]
+name = "intro-to-accelerated-python"
+version = "0.1.0"
+description = "Introduction to accelerated python"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyterlab",
+    "matplotlib",
+    "numba",
+    "numpy",
+    "scipy",
+    "threadpoolctl",
+]
+
+[project.optional-dependencies]
+cuda12 = ["cupy-cuda12x", "numba-cuda[cu12]"]
+cuda13 = ["cupy-cuda13x", "numba-cuda[cu13]"]
+
+[tool.uv]
+conflicts = [
+    [
+        { extra = "cuda12" },
+        { extra = "cuda13" },
+    ],
+]
